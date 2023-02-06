@@ -1,0 +1,83 @@
+/* import React , {useState} from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperclip, faPaperPlane } from "@fortawesome/free-solid-svg-icons"; 
+import './text_input.css'
+
+const Input = () =>{
+  return(
+<div className='inputWindow'>
+<TextWindow/>
+<Text_input />
+</div>
+
+  )
+}
+
+
+const TextWindow = () => {
+    return(
+<div className='textWindow'>
+
+</div>
+    )
+}
+
+
+const ImagePicker = () => {
+  const [image, setImage] = useState(null);
+
+  const handleImageChange = (event) => {
+    const selectedFile = event.target.files[0];
+    const reader = new FileReader();
+
+    reader.onload = (e) => {
+      setImage(e.target.result);
+    };
+
+  reader.readAsDataURL(selectedFile);
+    
+  };
+
+  return (
+    <div style={{backGround: 'green'}}>
+      <input type="file" onChange={handleImageChange} />
+      {image && <img src={image} alt="Selected Image" />}
+    </div>
+  );
+};
+
+
+const Text_input = () => {
+  return (
+    <div className='textBox' style={{ display: "flex", alignItems: "center" }}>
+    <input
+      type="text"
+      style={{
+        padding: "1em",
+        border: "1px solid lightgray",
+        borderRadius: "5px",
+        flexGrow: 1,
+      }}
+    />
+
+    <div style={{ marginLeft: "0.5em" }}>
+      <FontAwesomeIcon icon={faPaperclip} />
+    </div>
+    <div style={{ marginLeft: "0.5em" }}>
+      <FontAwesomeIcon icon={faPaperPlane} />
+    </div> 
+  
+  </div>
+  )
+}
+
+export default Input */
+
+
+
+
+
+   
+
+
+

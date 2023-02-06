@@ -1,0 +1,68 @@
+/* /* import React , {useState} from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperclip, faPaperPlane } from "@fortawesome/free-solid-svg-icons"; 
+import './text_input.css'
+
+const Input = () =>{
+  return(
+<div className='inputWindow'>
+{/* <TextWindow/> 
+<Text_input />
+</div>
+
+  )
+}
+
+
+const TextWindow = () => {
+    return(
+<div className='textWindow'>
+
+</div>
+    )
+}
+
+
+
+
+
+const Text_input = () => {
+  return (
+    <div >
+      <div className='textWindow'>
+
+     </div>
+      <input type="file"  style={{ display: "none" }} />
+      <div className='textBox' style={{ display: "flex", alignItems: "center" }}>
+        <input
+          type="text"
+          style={{
+            padding: "1em",
+            border: "1px solid lightgray",
+            borderRadius: "5px",
+            flexGrow: 1,
+          }}
+        />
+        <div style={{ marginLeft: "0.5em" }}>
+          <FontAwesomeIcon icon={faPaperclip}  />
+        </div>
+        <div style={{ marginLeft: "0.5em" }}>
+          <FontAwesomeIcon icon={faPaperPlane} />
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
+export default Input
+
+
+
+
+
+   
+
+
+
+  */

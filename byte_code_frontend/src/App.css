@@ -1,0 +1,15 @@
+body{
+   background-color: #F9F9F9; ;
+}
+
+.camera_position{
+  margin-left: 4rem;
+  margin-top: 25%;
+  border-radius: 5rem;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  
+}

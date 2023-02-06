@@ -1,0 +1,56 @@
+
+.textBox{
+    display: "flex";
+
+    align-items: center;
+  
+
+}
+
+.textWindow{
+      /* background-color: yellow; */
+     background-color: #F9F9F9; 
+     border: 1px solid #BBBBBB ;
+     margin-bottom: 1rem;
+     border-radius: 1rem;
+     height:85% ;
+   
+    
+}
+
+.inputWindow{
+ /*   background-color: #F9F9F9;  */
+    width: 80%;
+    margin-left: 6rem;
+    height:100% ;
+    
+    
+}
+.bubble{
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 80%;
+    float: right;
+    background-color: #53018A; 
+    text-align: right;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.api-response-bubble{
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 80%;
+    float: left;
+    background-color: #ffffff; 
+    text-align: left;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: black;
+    flex-wrap: wrap;
+}
